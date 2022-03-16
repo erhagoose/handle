@@ -1,12 +1,14 @@
 ![](./public/og.png)
 
-# 汉兜 Handle
+# 汉兜 私人版 Private Handle
 
 A Chinese Hanzi variation of [Wordle](https://www.powerlanguage.co.uk/wordle/). 汉字 Wordle.
 
-[handle.antfu.me](https://handle.antfu.me)
+Forked from [Handle](https://handle.antfu.me), and maintained here for some additional features.
 
-请勿剧透！PLEASE DO NOT SPOIL
+Deployed at [handle.nogeek.top](https://handle.nogeek.top).
+
+为nogeek及一些朋友维护！MAINTAINED FOR NOGEEK & HIS FRIENDS
 
 ## Development Setup
 
@@ -36,3 +38,6 @@ A Chinese Hanzi variation of [Wordle](https://www.powerlanguage.co.uk/wordle/). 
 ## License
 
 [MIT](./LICENSE) License © 2021-PRESENT [Anthony Fu](https://github.com/antfu)
+
+Any editions here:
+[MIT](./LICENSE) License © 2022-PRESENT [nogeek](https://github.com/ritou11)
