@@ -18,7 +18,7 @@ watchEffect(() => {
     <div p="4">
       <NoQuizToday v-if="!answer.word" />
       <NoFuturePlay v-else-if="dayNo > daySince && !isDev" />
-      <NoPastPlay v-else-if="daySince - dayNo > DAYS_PLAY_BACK && !isDev" />
+      <NoPastPlay v-else-if="DAYS_PLAY_BACK && daySince - dayNo > DAYS_PLAY_BACK && !isDev" />
       <Play v-else />
     </div>
     <ModalsLayer />
