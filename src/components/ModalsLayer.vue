@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import {
+  answer,
   breakpoints,
   showCheatSheet,
   showDashboard,
@@ -23,7 +24,7 @@ const lg = breakpoints.lg
     <Settings my6 />
   </Modal>
   <Modal v-model="showHint" direction="top">
-    <Hint />
+    <Hint v-if="answer.word" />
   </Modal>
   <Modal v-model="showFailed" direction="top">
     <FailedPage />
